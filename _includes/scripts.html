@@ -40,3 +40,75 @@
       captionText.innerHTML = dots[slideIndex-1].alt;
     }
 </script>
+
+<!-- <script>
+
+  // make Painting object constructor
+  function Painting(sourceURL, title, media) {
+    this.sourceURL = sourceURL;
+    this.title = title;
+    this.media = media;
+  }
+
+  // example
+  var examplePainting = new Painting("s3link", "This is the title of a painting", "oil on canvas");
+
+  // put the paintings into the img tags
+  for (painting in paintingsArray) {
+    // getElementsByTagName("img") actually returns an array of all "img" tags so this needs to be a for loop too i think (same array as document.images? not sure)
+    document.getElementsByTagName("img").src = painting.url;
+  }
+
+  try {
+    // code for pulling paintings from s3 and putting them into an array of painting objects that is then pulled from in paintings.html to create lightbox gallery;
+
+            function getPaintingURLs(n) {
+              var i;
+              document.getElementsByTagName("img").src = "i";
+              var x = {srcURL: "i", title: "title"};
+            }
+
+            // first, a function to grab the s3 urls and put them in an array
+            function getPaintingURLs() {
+              var paintingURLArray = ["s3link", "s3link", "s3link"];
+              // get 'em
+            }
+
+            // create array of objects (paintings) with s3 url as attribute
+            function createPaintingsArray(n) {
+              var paintings = [];
+              for (i in paintingURLArray) {
+                paintings[i].url = paintingURLArray[i];
+
+                // or
+                paintings.push(
+                  {url: paintingURLArray[i]}
+                  );
+                // ??
+              }
+              //or
+              for (i = 0; i < paintingURLArray.length; i++) {
+                paintings[i].url = paintingURLArray[i];
+
+                // or
+                paintings.push(
+                  {url: paintingURLArray[i], title: "a title", date: "yyyymmdd", media: "default media"}
+                  );
+                // ??
+              }
+            }
+
+
+            function sortPaintingsByDateReverseChrono() {
+              paintings.sort(function(a,b){return b.date - a.date});
+            }
+
+            // change each img src to each s3 url in order (for loop here or in html?)
+
+            // optional: give each img a caption (or other properties) that goes with it (the title and media)
+  }
+  catch(err) {
+    document.getElementById("errortext").innerHTML = err.message;
+  }
+
+</script> -->

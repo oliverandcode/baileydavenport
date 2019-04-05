@@ -38,3 +38,166 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# paintings: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/
+
+paintings: 
+  - title: "Sabrina Can't Play With Us"
+    order: 1
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Sabrina+Can't+Play+With+Us.jpg
+    description: "oil on canvas"
+  - title: "Portrait of the Queen"
+    order: 2
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Portrait+of+the+Queen.jpg
+    description: "oil on canvas"
+  - title: "At the Oppossum Funeral"
+    order: 3
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/At+The+Oppossum+Funeral.jpg
+    description: "oil on canvas"
+  - title: "Still Life with Cactus 2"
+    order: 4
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Still+Life+with+Cactus+2.jpg
+    description: "oil on canvas"
+  - title: "No Diving Allowed"
+    order: 5
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/No+Diving+Allowed.jpg
+    description: "oil on canvas"
+  - title: "D. and S."
+    order: 6
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/D+and+S.jpg
+    description: "oil on canvas"
+  - title: "Wilson's in North City"
+    order: 7
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Wilson's+in+North+City.jpg
+    description: "oil on canvas"
+  - title: "Wesley in His Dad's Uniform"
+    order: 8
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Wesley+in+His+Dad's+Uniform.jpg
+    description: "oil on canvas"
+  - title: "Portrait of K."
+    order: 9
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Portrait+of+K.jpg
+    description: "oil on canvas"
+  - title: "G. in the Studio"
+    order: 10
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/G+in+the+Studio.jpg
+    description: "Tuesday at Nude Bill's"
+  - title: "the painting title"
+    order: 11
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Tuesday+at+Nude+Bill's.jpg
+    description: "oil on canvas"
+  - title: "Still Life with Dog"
+    order: 12
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Still+Life+with+Dog.jpg
+    description: "oil on canvas"
+  - title: "Pink Balloons"
+    order: 13
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Pink+Balloons.jpg
+    description: "oil on canvas"
+  - title: "Tattoo Parlour"
+    order: 14
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Tattoo+Parlour.jpg
+    description: "oil on canvas"
+  - title: "Still Life with Chair"
+    order: 15
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Still+Life+with+Chair.jpg
+    description: "oil on canvas"
+  - title: "Mandatory Oceanscape"
+    order: 16
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Mandatory+Oceanscape.jpg
+    description: "oil on canvas"
+  - title: "Why Am I So Bad At Being Alone"
+    order: 17
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Why+Am+I+So+Bad+At+Being+Alone.jpg
+    description: "oil on canvas"
+  - title: "This Is My Plant; Its Name Is Alice Neal"
+    order: 18
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/This+Is+My+Plant%3B+Its+Name+Is+Alice+Neal.jpg
+    description: "oil on canvas"
+  - title: "Lotus Pond"
+    order: 19
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Lotus+Pond.jpg
+    description: "oil on canvas"
+  - title: "Don't Talk to Me About Abortion Anymore, Robert"
+    order: 20
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Don't+Talk+To+Me+About+Abortion+Anymore%2C+Robert.jpg
+    description: "oil on canvas"
+  - title: "African Violets"
+    order: 21
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/African+Violets.jpg
+    description: "oil on canvas"
+  - title: "Still Life with Mirror, or Self Portrait as the Allegory of Painting"
+    order: 22
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Still+Life+with+Mirror+or+Self+Portrait+as+the+Allegory+of+Painting.jpg
+    description: "oil on canvas"
+  - title: "Still Life with Mirror #2"
+    order: 23
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Still+Life+with+Mirror+%232.jpg
+    description: "oil on canvas"
+  - title: "Beau"
+    order: 24
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Beau.jpg
+    description: "oil on canvas"
+  - title: "Band"
+    order: 25
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Band.jpg
+    description: "oil on canvas"
+  - title: "Still Life with Tomato, or Painting for Alex"
+    order: 26
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Still+Life+with+Tomato+or+Painting+for+Alex.jpg
+    description: "oil on canvas"
+  - title: "Six Persimmons, or Painting for Alex"
+    order: 27
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Six+Persimmons+or+Painting+for+Alex.jpg
+    description: "oil on canvas"
+  - title: "Portrait of Grandpa Donald"
+    order: 28
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Portrait+of+Grandpa+Donald.jpg
+    description: "oil on canvas"
+  - title: "I don't think it's seaworthy, or Painting for Molly"
+    order: 29
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/I+don't+think+it's+seaworthy+or+Painting+for+Molly.jpg
+    description: "oil on canvas"
+  - title: "Black Girl in Hat, or Theresa by the Sea"
+    order: 30
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Black+Girl+in+Hat+or+Theresa+at+the+Sea.jpg
+    description: "oil on canvas"
+  - title: "She's the Beautiful One, or Painting for Carmen"
+    order: 31
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/She's+the+Beautiful+One+or+Painting+for+Carmen.jpg
+    description: "oil on canvas"
+  - title: "Painting for Carmen installation detail"
+    order: 32
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Painting+for+Carmen+installation+detail.jpg
+    description: "installation: oil on canvas, Carmen's garage, snowblower, easel, plastic pumpkin buckets, hamster wheel, approx. 250 sq ft"
+  - title: "In which I fantasize that I am smoking cigars with Picasso in Gertrude Stein's French parlor"
+    order: 33
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/In+which+I+fantasize+that+I+am+smoking+cigars+with+Picasso+in+Gertrude+Stein's+French+parlor.jpg
+    description: "oil on canvas"
+  - title: "In Honor of Sri Daya Mata"
+    order: 34
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/In+Honor+of+Sri+Daya+Mata.jpg
+    description: "oil on canvas"
+  - title: "Great Cocksucking Lips"
+    order: 35
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Great+Cocksucking+Lips.jpg
+    description: "oil on canvas"
+  - title: "These are the things that my father gave me"
+    order: 36
+    source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/These+are+the+things+that+my+father+gave+me.jpg
+    description: "oil on canvas"
+  # - title: "the painting title"
+  #   order: 0
+  #   source: s3link
+  #   description: "oil on canvas"
+  # - title: "the painting title"
+  #   order: 0
+  #   source: s3link
+  #   description: "oil on canvas"
+  # - title: "the painting title"
+  #   order: 0
+  #   source: s3link
+  #   description: "oil on canvas"
+
+
+
