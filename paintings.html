@@ -10,7 +10,7 @@ permalink: /paintings/
 <div class="lightbox-thumb-row">
     {% for painting in site.paintings %}
     <div class="lightbox-thumb-column">
-        <img src="{{ painting.source }}" onclick="openModal();currentSlide( {{ painting.order }} )" class="hover-shadow" style="width:100%" />
+        <img src="{{ painting.source }}" title="{{ painting.title }}" alt="{{ painting.title }}" onclick="openModal();currentSlide( {{ painting.order }} )" class="hover-shadow" style="width:100%" />
     </div>
     {% endfor %}
 </div>
@@ -23,7 +23,7 @@ permalink: /paintings/
         {% for painting in site.paintings %}
         <div class="mySlides">
             <div class="numbertext">{{ painting.order }} / &infin;</div>
-            <img src="{{ painting.source }}" style="width:100%" />
+            <img src="{{ painting.source }}" title="{{ painting.title }}" alt="{{ painting.title }}" style="width:100%" />
         </div>
         {% endfor %}
 
@@ -39,7 +39,7 @@ permalink: /paintings/
         <!-- thumbnail image controls -->
         {% for painting in site.paintings %}
         <div class="column">
-            <img class="demo" src="{{ painting.source }}" onclick="currentSlide( {{ painting.order }} )" alt="{{ painting.title }}" style="width:25%" />
+            <img class="demo" src="{{ painting.source }}" onclick="currentSlide( {{ painting.order }} )" alt="{{ painting.title }}" title="{{ painting.title }}" style="width:25%" />
         </div>
         {% endfor %}
 

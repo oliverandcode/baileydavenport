@@ -14,12 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Bailey Davenport
+author: (c) 2019 Bailey Davenport
 email: baileyrdavenport@gmail.com
 description: Bailey Davenport, painter and prophet
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
+
+home_image: 
+  source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Still+Life+with+Dog.jpg
+  title: "Still Life with Dog"
 
 # Build settings
 markdown: kramdown
@@ -81,8 +86,8 @@ paintings:
   - title: "G. in the Studio"
     order: 10
     source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/G+in+the+Studio.jpg
-    description: "Tuesday at Nude Bill's"
-  - title: "the painting title"
+    description: "oil on canvas"
+  - title: "Tuesday at Nude Bill's"
     order: 11
     source: https://s3-us-west-1.amazonaws.com/paintings.baileydavenport.com/Tuesday+at+Nude+Bill's.jpg
     description: "oil on canvas"
